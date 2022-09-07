@@ -21,6 +21,8 @@ body {
     width: 80px;
     background-color: lightgray;
     border: 3px solid black;
+    border-left: none;
+    border-bottom: none;
     position: fixed;
     overflow: auto;
     left: 0;
