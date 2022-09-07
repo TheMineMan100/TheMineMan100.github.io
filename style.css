@@ -14,6 +14,40 @@ body {
     padding-top: 40px;
 }
 
+.asidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    background-color: lightgray;
+    border: 3px solid black;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.asidebar li {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.asidebar li:last-child {
+    border-bottom: none;
+}
+
+.asidebar a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.asidebar a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
 nav {
     font-family: Arial, Helvetica, sans-serif;
     background-color: gold;
