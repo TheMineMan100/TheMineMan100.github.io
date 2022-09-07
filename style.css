@@ -1,5 +1,5 @@
 body {
-    background-color: chocolate;
+    background-color: aliceblue;
 }
 
 .content {
@@ -14,7 +14,7 @@ body {
     padding-top: 40px;
 }
 
-.asidebar ul {
+aside ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,23 +29,23 @@ body {
     bottom: 0;
 }
 
-.asidebar li {
+aside li {
     text-align: center;
     border-bottom: 1px solid black;
 }
 
-.asidebar li:last-child {
+aside li:last-child {
     border-bottom: none;
 }
 
-.asidebar a {
+aside a {
     display: block;
     color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-.asidebar a:hover {
+aside a:hover {
     background-color: darkgray;
     color: white;
 }
@@ -110,5 +110,5 @@ nav a:active {
 }
 
 main {
-    background-color: blue;
+    background-color: lightgray;
 }
