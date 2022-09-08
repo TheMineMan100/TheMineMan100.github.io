@@ -99,12 +99,7 @@ nav a:visited {
     color: crimson;
 }
 
-nav a:hover {
-    color: darkred;
-    background-color: goldenrod;
-}
-
-nav a:active {
+nav a:hover, nav a:active {
     color: darkred;
     background-color: goldenrod;
 }
