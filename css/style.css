@@ -69,6 +69,7 @@ nav {
     overflow: auto;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 nav li {
     margin: 0;
     border-right: 1px solid black;
@@ -88,6 +89,7 @@ nav ul {
     overflow: hidden;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 nav a {
     text-decoration: 0;
     display: block;
@@ -132,4 +134,32 @@ td {
 
 .quote {
     font-style: italic;
+}
+
+#guerilla-logo {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#guerilla-banner {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#abstraction-logo {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+#vertigo-logo {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
