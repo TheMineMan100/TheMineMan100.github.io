@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #2C3333;
 }
 
 .content {
@@ -20,6 +20,7 @@ header {
     padding-bottom: 40px;
     font-size: 3rem;
     font-weight: bold;
+    color: #A5C9CA;
 }
 
 aside ul {
@@ -27,8 +28,8 @@ aside ul {
     margin: 0;
     padding: 0;
     width: 80px;
-    background-color: lightgray;
-    border: 3px solid black;
+    background-color: #395B64;
+    border: 1px solid black;
     border-left: none;
     border-bottom: none;
     position: fixed;
@@ -48,8 +49,8 @@ aside li:last-child {
 
 aside a {
     display: block;
-    color: black;
-    padding: 8px 16px;
+    color: snow;
+    padding: 8px 12px;
     text-decoration: none;
 }
 
@@ -60,7 +61,7 @@ aside a:hover {
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: slategray;
+    background-color: #395B64;
     position: fixed;
     top: 0;
     left: 0;
@@ -85,7 +86,7 @@ nav ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: slategray;
+    background-color: #395B64;
     overflow: hidden;
 }
 
@@ -113,8 +114,10 @@ nav a:hover, nav a:active {
 }
 
 main {
-    background-color: lightgray;
+    background-color: #395B64;
     font-size: 1.2rem;
+    color: #A5C9CA;
+    border-radius: 3px;
 }
 
 table {
@@ -123,13 +126,14 @@ table {
 }
 
 th {
-    background-color: antiquewhite;
+    background-color: #2C3333;
     border: 1px solid black;
 }
 
 td {
-    background-color: blanchedalmond;
+    background-color: #A5C9CA;
     border: 1px solid black;
+    color: #395B64;
 }
 
 /* make flex table for dashboard later
@@ -173,6 +177,10 @@ td {
 
 .quote {
     font-style: italic;
+}
+
+.company-logo {
+    padding-top: 20px;
 }
 
 #guerilla-logo {
