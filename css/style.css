@@ -132,6 +132,45 @@ td {
     border: 1px solid black;
 }
 
+/* make flex table for dashboard later
+.exam-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.exam-table p {
+    display: block;
+    width: 100%;
+    background-color: azure;
+}
+
+.examtable img {
+    max-width: 300px;
+}
+*/
+
+/* Grid table styling
+.exam-table {
+    background-color: blueviolet;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(20, min-content);
+    gap: 3px;
+    place-items: center;
+}
+
+.exam-table p {
+    background-color: brown;
+}
+
+/* End of grid table styling */
+
 .quote {
     font-style: italic;
 }
