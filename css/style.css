@@ -51,7 +51,7 @@ aside li:last-child {
 
 aside a {
     display: block;
-    color: snow;
+    color: mintcream;
     padding: 8px 12px;
     text-decoration: none;
 }
@@ -96,13 +96,13 @@ nav ul {
 nav a {
     text-decoration: 0;
     display: block;
-    color: snow;
+    color: mintcream;
     padding: 14px 16px;
     text-align: center;
 }
 
 nav a:visited {
-    color: snow;
+    color: mintcream;
 }
 
 nav a:hover, nav a:active {
@@ -112,7 +112,7 @@ nav a:hover, nav a:active {
 
 .current {
     background-color: black;
-    color: white;
+    color: mintcream;
 }
 
 main {
@@ -142,6 +142,7 @@ table {
 th {
     background-color: #2C3333;
     border: 1px solid black;
+    color: mintcream;
 }
 
 td {
