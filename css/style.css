@@ -11,6 +11,7 @@ body {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
 }
 
 header {
@@ -28,7 +29,7 @@ aside ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 80px;
+    width: 75px;
     background-color: #395B64;
     border: 1px solid black;
     border-left: none;
@@ -192,6 +193,10 @@ td {
 
 .quote {
     font-style: italic;
+}
+
+.questions h2 {
+    padding-bottom: 10px;
 }
 
 .company-logo {
