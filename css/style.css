@@ -208,6 +208,23 @@ td {
     column-width: 25rem;
 }
 
+details {
+    padding-bottom: 10px;
+}
+
+summary {
+    background-color: #A5C9CA;
+    border-radius: 3px;
+    color: #395B64;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    width: 350px;
+}
+
+summary:hover, summary:active {
+    background-color: #E7F6F2;
+}
+
 .quote {
     font-style: italic;
 }
