@@ -158,6 +158,22 @@ td {
     text-align: center;
 }
 
+#nbsa-progress-bar {
+    background-color: green;
+    height: 24px;
+    width: 0%;
+}
+
+.bar-background {
+    height: 24px;
+    width: 100%;
+    background-color: gray;
+}
+
+.success-text {
+    color: green;
+}
+
 .home-grid {
     display: grid;
     grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);

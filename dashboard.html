@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Profile Site - Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="javascript/progress-bar.js">
   </head>
-  <body>
+  <body onload="javascript:move()">
+    <script src="javascript/progress-bar.js"></script>
     <div class="content">
       <nav>
         <ul>
@@ -44,9 +46,15 @@
 
           <br>
 
-          <!-- Add proper burn down chart for tracking NBSA and EC -->
-          <p>NBSA Boundary: 45 EC</p>
-          <p>Current Points: 0 EC</p>
+          <!-- Credit to W3Schools for progress bar code inspiration -->
+          <div class="nbsa-container">
+            <h2>NBSA and EC Progress</h2>
+            <div class="bar-background">
+              <div id="nbsa-progress-bar" class="nbsa-container main-bar">
+              </div>
+            </div>
+            <p id="progress-bar-text"><span id="ec-count">0</span> of 60 EC</p>
+          </div>
 
           <br>
 
