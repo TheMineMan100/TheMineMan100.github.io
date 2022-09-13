@@ -158,6 +158,10 @@ td {
     text-align: center;
 }
 
+.nbsa-container h2 {
+    padding-bottom: 15px;
+}
+
 #nbsa-progress-bar {
     background-color: green;
     height: 24px;
