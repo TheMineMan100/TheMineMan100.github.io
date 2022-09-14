@@ -200,6 +200,8 @@ td {
     background-color: #A5C9CA;
     border: 1px solid black;
     color: #395B64;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .dashboard-number {
