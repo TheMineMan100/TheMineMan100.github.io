@@ -145,8 +145,7 @@ figcaption {
     flex-direction: row;
     /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
     flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;
+    justify-content: center;
     gap: 10px;
 
 }
@@ -154,6 +153,7 @@ figcaption {
 .home-page .content {
     margin: 0;
     width: 55%;
+    padding-left: 85px;
 }
 
 .home-page figcaption {
@@ -162,13 +162,25 @@ figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#game-code-screenshot {
+.home-figures {
+    flex: 1;
+    flex-direction: column;
+}
+
+#game-code-screenshot, #hz-building-photo {
     width: 100%;
     max-width: 650px;
     object-fit: cover;
-    margin-right: 6px;
     border: 2px solid #395B64;
     border-radius: 3px;
+}
+
+#game-code-screenshot {
+    margin-top: 200px;
+}
+
+#code-screenshot-figure {
+    padding-bottom: 15px;
 }
 
 table {
