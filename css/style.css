@@ -296,6 +296,10 @@ summary:hover, summary:active {
     background-color: #E7F6F2;
 }
 
+.blog-return-button {
+    padding-bottom: 10px;
+}
+
 .company-logo {
     padding-top: 20px;
 }
