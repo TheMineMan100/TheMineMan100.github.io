@@ -151,7 +151,7 @@ main {
     font-size: 1.2rem;
     color: #A5C9CA;
     border-radius: 3px;
-    padding: 5px;
+    padding: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -206,8 +206,13 @@ figcaption {
     width: 100%;
     max-width: 650px;
     object-fit: cover;
-    border: 2px solid #395B64;
+    border: 5px solid #395B64;
     border-radius: 3px;
+}
+
+#hz-building-photo {
+    border-top: 6px solid #395B64;
+    border-bottom: 6px solid #395B64;
 }
 
 #code-screenshot-figure {
