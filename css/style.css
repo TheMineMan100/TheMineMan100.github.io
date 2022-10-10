@@ -319,6 +319,18 @@ summary:hover, summary:active {
     background-color: #E7F6F2;
 }
 
+.faq-summary {
+    background-color: transparent;
+    color: #A5C9CA;
+    text-align: left;
+    width: 100%;
+}
+
+.faq-summary:hover {
+    color: #395B64;
+    background-color: #A5C9CA;
+}
+
 .quote {
     font-style: italic;
 }
