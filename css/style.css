@@ -202,7 +202,7 @@ figcaption {
 
 .home-page .content {
     margin: 0;
-    width: 60%;
+    width: 65%;
 }
 
 #profile-page .content {
@@ -216,7 +216,11 @@ figcaption {
 }
 
 .home-intro {
-    padding-bottom: 40px;
+    padding-bottom: 0;
+}
+
+#home-motivation-end {
+    padding-bottom: 110px;
 }
 
 .home-figures, #profile-figures {
