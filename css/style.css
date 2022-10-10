@@ -20,7 +20,7 @@ body {
 }
 
 .content {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
@@ -159,7 +159,7 @@ main {
     font-size: 1.2rem;
     color: #A5C9CA;
     border-radius: 3px;
-    padding: 15px;
+    padding: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -177,6 +177,7 @@ main a:hover, main a:active {
 hr {
     border: 1px solid #A5C9CA;
     margin-bottom: 20px;
+    background-color: #A5C9CA;
 }
 
 figcaption {
@@ -215,13 +216,13 @@ figcaption {
     width: 100%;
     max-width: 650px;
     object-fit: cover;
-    border: 5px solid #395B64;
+    border: 10px solid #395B64;
     border-radius: 3px;
 }
 
 #hz-building-photo {
-    border-top: 6px solid #395B64;
-    border-bottom: 6px solid #395B64;
+    border-top: 11px solid #395B64;
+    border-bottom: 11px solid #395B64;
 }
 
 #code-screenshot-figure {
