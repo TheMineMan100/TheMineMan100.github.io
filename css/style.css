@@ -187,7 +187,7 @@ figcaption {
     font-style: italic;
 }
 
-.home-page {
+.home-page, #profile-page {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -202,10 +202,14 @@ figcaption {
 
 .home-page .content {
     margin: 0;
-    width: 50%;
+    width: 60%;
 }
 
-.home-page figcaption {
+#profile-page .content {
+    width: 75%;
+}
+
+.home-page figcaption, #profile-page figcaption {
     font-size: 1.1rem;
     color: #A5C9CA;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -215,17 +219,22 @@ figcaption {
     padding-bottom: 40px;
 }
 
-.home-figures {
+.home-figures, #profile-figures {
     flex: 1;
     flex-direction: column;
+    float: right;
 }
 
-#game-code-screenshot, #hz-building-photo {
+#game-code-screenshot, #hz-building-photo, #profile-photo {
     width: 100%;
     max-width: 650px;
     object-fit: cover;
     border: 10px solid #395B64;
     border-radius: 3px;
+}
+
+#profile-photo {
+    width: 300px;
 }
 
 #code-screenshot-figure {
@@ -290,16 +299,6 @@ td {
 .text {
     grid-column: 1 / -1;
     column-width: 25rem;
-}
-
-#profile-page {
-    display: flex;
-    gap: 16px;
-}
-
-#profile-photo {
-    padding: 6px;
-    padding-bottom: 0;
 }
 
 details {
