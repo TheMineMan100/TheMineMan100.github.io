@@ -16,7 +16,10 @@ details p {
 }
 
 body {
-    background-color: #2C3333;
+    background-image: url("../resources/bluegray-forest-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #2a3131;
 }
 
 .content {
