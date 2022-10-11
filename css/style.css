@@ -379,6 +379,17 @@ summary:hover, summary:active {
     padding-bottom: 10px;
 }
 
+.swot-icons {
+    display: block;
+    border-radius: 5px;
+    float: right;
+    max-height: 130px;
+    width: 75px;
+    position: relative;
+    bottom: 40px;
+    right: 5%;
+}
+
 #experience-book-image, #experience-fast-track-image {
     width: max-content;
 }
