@@ -385,10 +385,14 @@ summary:hover, summary:active {
 
 .company-logo {
     padding-top: 20px;
+    height: 150px;
+}
+
+.main-profession-page-company-logo {
+    height: 75px;
 }
 
 #guerilla-logo {
-    width: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -396,7 +400,6 @@ summary:hover, summary:active {
 }
 
 #abstraction-logo {
-    width: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -404,7 +407,6 @@ summary:hover, summary:active {
 }
 
 #vertigo-logo {
-    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
