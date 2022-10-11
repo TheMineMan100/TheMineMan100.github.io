@@ -187,7 +187,7 @@ figcaption {
     font-style: italic;
 }
 
-.home-page, #profile-page {
+.home-page, #profile-page, #feedback-page {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -205,11 +205,11 @@ figcaption {
     width: 65%;
 }
 
-#profile-page .content {
+#profile-page .content, #feedback-page .content {
     width: 75%;
 }
 
-.home-page figcaption, #profile-page figcaption {
+.home-page figcaption, #profile-page figcaption, #feedback-page figcaption {
     font-size: 1.1rem;
     color: #A5C9CA;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -223,13 +223,13 @@ figcaption {
     padding-bottom: 20px;
 }
 
-.home-figures, #profile-figures {
+.home-figures, #profile-figures, #feedback-figures {
     flex: 1;
     flex-direction: column;
     float: right;
 }
 
-#game-code-screenshot, #hz-building-photo, #profile-photo {
+#game-code-screenshot, #hz-building-photo, #profile-photo, #feedback-daphne-photo {
     width: 100%;
     max-width: 650px;
     object-fit: cover;
@@ -237,12 +237,27 @@ figcaption {
     border-radius: 3px;
 }
 
-#profile-photo {
+#profile-photo, #feedback-daphne-photo {
     width: 300px;
 }
 
 #code-screenshot-figure {
     padding-bottom: 15px;
+}
+
+.blog-image, .post-image {
+    display: block;
+    width: 80%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.post-image {
+    padding-bottom: 20px;
+    width: 100%;
 }
 
 table {
@@ -364,6 +379,10 @@ summary:hover, summary:active {
     padding-bottom: 10px;
 }
 
+#experience-book-image, #experience-fast-track-image {
+    width: max-content;
+}
+
 .company-logo {
     padding-top: 20px;
 }
@@ -373,11 +392,6 @@ summary:hover, summary:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
-}
-
-#guerilla-banner {
-    width: 100%;
     padding-bottom: 20px;
 }
 
