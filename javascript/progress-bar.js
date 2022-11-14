@@ -2,7 +2,7 @@ function move() {
     var elem = document.getElementById("nbsa-progress-bar");
 
     // Fill in current EC here!
-    var ecPoints = 0;
+    var ecPoints = 12.5;
 
     var width = ecPoints / 0.6;
     var id = setInterval(frame, 50);
