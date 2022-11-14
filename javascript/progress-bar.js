@@ -12,7 +12,6 @@ function move() {
       } else {
         elem.style.width = width + '%';
         var num = ecPoints;
-        num = num.toFixed(0)
         document.getElementById("ec-count").innerHTML = num;
       }
       if (width >= 75) {
